@@ -1,0 +1,25 @@
+.NavigationContainer{
+  top: 1em;
+  width: 100%;
+  /*white-space: nowrap;*/
+  height: 10vh;
+  display: flex;
+  margin-top: 1%;
+  align-items: right;
+  justify-content: flex-end;
+  /*background-color: purple;*/
+}
+
+@media screen and (orientation: potrait) {
+  .NavigationContainer{
+    /*position: fixed;*/
+    top: 1em;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+  }
+}
