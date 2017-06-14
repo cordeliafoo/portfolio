@@ -10,7 +10,7 @@
   /*background-color: purple;*/
 }
 
-@media screen and (orientation: potrait) {
+@media screen and (orientation: portrait) {
   .NavigationContainer{
     /*position: fixed;*/
     top: 1em;
@@ -20,6 +20,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    /*background-color: green;*/
   }
 }

@@ -1,6 +1,8 @@
 img{
-  width: 300px;
-  height: 400px;
+  /*width: 250;
+  height: 400px;*/
+  width: 100%;
+  object-fit: cover;  
 }
 
 p{
@@ -13,10 +15,48 @@ p{
   margin-bottom: 20px;
 }
 
-@media screen and (orientation: potrait) {
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#profile_left {
+  width: 70%;
+}
+
+#profile_right {
+  width: 25%;
+  height: 100%;
+}
+
+
+@media screen and (orientation: portrait) {
   .hi{
-    /*position: fixed;*/
     font-size:2em;
-    color: tomato;
   }
+
+  .flexRow {
+  }
+
+  #profile_left {
+    width: 100%;
+  }
+
+  #profile_right {
+    order: -1;
+    width: 100%;
+  }
+
+  #homepageContainer{
+    margin-top: 10%;
+  }
+
+  img{
+    align-content: center;
+  }
+
 }

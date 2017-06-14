@@ -9,10 +9,12 @@ export const LandingDiv = styled.div`
 `
 
 export const ImageDiv = styled.div`
-  display: inline-block;
-  position: absolute;
+  ${''/* display: inline-block; */}
+  ${''/* position: absolute; */}
   background-size: cover;
   object-fit: cover;
+  align-content: center;
+  align-items: center;
   ${''/* overflow: hidden; */}
 `
 

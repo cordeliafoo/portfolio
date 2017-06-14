@@ -10,9 +10,9 @@ export default class Home extends Component {
   render () {
     return (
       <div>
-        <Container>
+        <Container id='homepageContainer'>
           <Row className='flexRow'>
-            <Col xs={12} md={8}>
+            <div id='profile_left'>
               <h1 className='hi'>Hi I'm Shirong</h1>
               <H2>WDI Graduate | Full-Stack Web Developer </H2>
               <ResumeDiv>
@@ -20,25 +20,28 @@ export default class Home extends Component {
               </ResumeDiv>
               <p>I enjoy using web technologies to make useful & pretty digital products that spark joy within people.</p>
               <br />
-              <p>My personal quest to become technology literate in 2017 led me to enrol in General Assembly's Web Development Immersive bootcamp.  It has been such a humbling yet enriching experience, one that has made me truly appreciate what technology can do for us in this day and age.  I endeavour to continue exploring and creating better applications that can help make people's lives better, in any shape and form.</p>
+              <p>My personal quest to become technology literate in 2017 led me to enrol in General Assembly's Web Development Immersive bootcampt.  It has been such a humbling yet enriching experience, one that has made me truly appreciate what technology can do for us in this day and age.  I endeavour to continue exploring and creating better applications that can help make people's lives better, in any shape and form.</p>
               <br />
               <Row>
-                <Col xs={4} md={1}>
+                <Col xs={3} md={1}>
                   <FaviconLink href='mailto:shirongfoo@gmail.com' target='_blank'><span className='fa fa-envelope fa-2x' /></FaviconLink>
                 </Col>
-                <Col xs={4} md={1}>
+                <Col xs={3} md={1}>
                   <FaviconLink href='https://www.linkedin.com/in/srfoo' target='_blank'><span className='fa fa-linkedin fa-2x' /></FaviconLink>
                 </Col>
-                <Col xs={4} md={1}>
+                <Col xs={3} md={1}>
                   <FaviconLink href='https://github.com/shirongfoo' target='_blank'><span className='fa fa-github fa-2x' /></FaviconLink>
                 </Col>
+                <Col xs={3} md={1}>
+                  <FaviconLink href='https://twitter.com/cordyfoo' target='_blank'><span className='fa fa-twitter fa-2x' /></FaviconLink>
+                </Col>
               </Row>
-            </Col>
-            <Col xs={12} md={3}>
+            </div>
+            <div id='profile_right'>
               <ImageDiv className='imageDiv'>
               <img src='https://i.imgur.com/xcRtYSI.jpg' />
               </ImageDiv>
-            </Col>
+            </div>
           </Row>
         </Container>
 

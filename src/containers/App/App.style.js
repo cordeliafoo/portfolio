@@ -8,11 +8,12 @@ export const Container = styled.div`
   right: 15vw;
   width: 70vw;
   ${''/* top: 1vh; */}
-  height: 80vh;
+  ${''/* height: 80vh; */}
   display: flex;
   align-items: center;
   justify-content: center;
   ${''/* background-color: red; */}
+  margin-top: 2%;
 `
 export const FormContainer = styled.div`
 position: relative;

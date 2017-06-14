@@ -41,7 +41,7 @@ export const ProjectContainer = styled.div`
   width: 70%;
   height: 107vh;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 30px;
   ${''/* overflow: scroll; */}
   overflow: hidden;
   ${''/* background-color: red; */}
