@@ -1,0 +1,17 @@
+#project2Image{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.modalImg{
+  margin-bottom: 4%;
+}
+
+
+@media screen and (orientation: portrait) {
+  .modalImge{
+    margin-bottom: 5%;
+  }
+
+}

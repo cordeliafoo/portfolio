@@ -30,7 +30,7 @@ export const SkillsContainer = styled.div`
   justify-content: center; */}
 ${''/* background-color: green; */}
   width: 70%;
-  height: 107vh;
+  height: 80vh;
   margin: 0 auto;
   margin-top: 30px;
 

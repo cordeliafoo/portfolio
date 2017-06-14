@@ -14,7 +14,7 @@ export default class Home extends Component {
           <Row className='flexRow'>
             <div id='profile_left'>
               <h1 className='hi'>Hi I'm Shirong</h1>
-              <H2>WDI Graduate | Full-Stack Web Developer </H2>
+              <h2 id='WDIGrad'>WDI Graduate | Full-Stack Web Developer </h2>
               <ResumeDiv>
                 <ResumeLink href='https://drive.google.com/file/d/0B4TSx5Jp3zdRNjZtTnRSREZqM2M/view?usp=sharing' target='_blank'>view my resume</ResumeLink>
               </ResumeDiv>

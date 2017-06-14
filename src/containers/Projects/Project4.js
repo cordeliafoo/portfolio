@@ -28,7 +28,10 @@ const Project4 = React.createClass({
               <H1>Shopppit</H1>
             </Modal.Header>
             <Modal.Body>
+              <img src='http://i.imgur.com/C4i5hY4.png'></img>
+              <hr />
               <H4>About</H4>
+
               <P>Shopppit (with three Ps (!!) because shopit and shoppit were already taken)
                       is my 4th and final project as a Web Development Immersive student at General Assembly Singapore.
                       This app pays homage to a vice that surfaces whenever I'm stressed (which happened a lot throughout my time at WDI) - online shopping.</P>
@@ -37,7 +40,8 @@ const Project4 = React.createClass({
                       This process also helped myself to consolidate and solidify front-end and back-end skills that I have picked up over the last three months.</P>
               <hr />
               <H4>Tech Stack</H4>
-              <P>Node js, Express, MongoLab, Bootstrap with deployment on Heroku</P>
+              <P>NodeJS, Express, MongoDB, Bootstrap Framework.</P>
+              <P>Deployed on Heroku</P>
               <hr />
               <H4>Check It Out</H4>
               <Row>
@@ -45,7 +49,7 @@ const Project4 = React.createClass({
                   <FaviconLink href='https://github.com/shirongfoo/wdi-project-4' target='_blank'><ModalIcons className='fa fa-github fa-2x'/>Project Repo</FaviconLink>
                 </Col>
                 <Col xs={1} md={2}>
-                  <FaviconLink href='https://shopppit.herokuapp.com' target='_blank'><ModalIcons className='fa fa-paw fa-2x'/>Website</FaviconLink>
+                  <FaviconLink href='https://shopppit.herokuapp.com' target='_blank'><ModalIcons className='fa fa-globe fa-2x'/>Live Website</FaviconLink>
                 </Col>
               </Row>
             </Modal.Body>

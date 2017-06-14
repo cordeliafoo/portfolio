@@ -28,10 +28,17 @@ const Project1 = React.createClass({
               <H1>fat fishy</H1>
             </Modal.Header>
             <Modal.Body>
+              <img src='http://i.imgur.com/VxHXNDV.png'/>
+              <hr />
               <H4>About</H4>
-              <P>about finding fishy</P>
+
+              <P>I was inspired by a childhood favorite game of mine and decided to re-create it using Javascript.  To challenge myself further, I decided to develop the game entirely using Object Oriented Programming(OOP) to cement and apply the concepts I learnt in my first two weeks of class.  The process was painful but ultimately worthwhile because it made my code more modular and manageable.  It was also much more easily modifiable than if I had creataed my code structure around actions and logic.</P>
+              <P>I modified the original version of the game to accomodate two players.  Using keyboard controls, players navigate around the fish tank to consume smaller fish and avoid the biger ones.  Players morph into bigger-sized fish when they have eaten enough fishys.</P>
+              <hr />
               <H4>Tech Stack</H4>
-              <P>something</P>
+              <P>Javascript, HTML(with HTML canvas element), CSS</P>
+              <P>Deployed on github pages</P>
+
               <hr />
               <H4>Check It Out</H4>
               <Row>
@@ -39,7 +46,7 @@ const Project1 = React.createClass({
                   <FaviconLink href='https://github.com/shirongfoo/wdi-project-1-shirongfoo' target='_blank'><ModalIcons className='fa fa-github fa-2x'/>Project Repo</FaviconLink>
                 </Col>
                 <Col xs={1} md={2}>
-                  <FaviconLink href='https://shirongfoo.github.io/wdi-project-1-shirongfoo/'target='_blank'><ModalIcons className='fa fa-paw fa-2x'/>Website</FaviconLink>
+                  <FaviconLink href='https://shirongfoo.github.io/wdi-project-1-shirongfoo/'target='_blank'><ModalIcons className='fa fa-globe fa-2x'/>Live Website</FaviconLink>
                 </Col>
               </Row>
             </Modal.Body>

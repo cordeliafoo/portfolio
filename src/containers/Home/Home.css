@@ -2,7 +2,7 @@ img{
   /*width: 250;
   height: 400px;*/
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 p{
@@ -16,6 +16,14 @@ p{
 }
 
 
+#WDIGrad{
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+
+
 .flexRow{
   display: flex;
   flex-direction: row;
@@ -25,7 +33,7 @@ p{
 }
 
 #profile_left {
-  width: 70%;
+  width: 60%;
 }
 
 #profile_right {
@@ -33,10 +41,18 @@ p{
   height: 100%;
 }
 
+#homepageContainer{
+  margin-bottom: 12%;
+}
+
 
 @media screen and (orientation: portrait) {
   .hi{
     font-size:2em;
+  }
+
+  #WDIGrad{
+    font-size: 1.5em;
   }
 
   .flexRow {
