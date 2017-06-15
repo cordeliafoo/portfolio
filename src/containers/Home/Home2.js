@@ -16,7 +16,11 @@ export default class Home extends Component {
               <h1 className='hi'>Hi I'm Shirong</h1>
               <h2 id='WDIGrad'>WDI Graduate | Full-Stack Web Developer </h2>
               <ResumeDiv>
-                <ResumeLink href='https://drive.google.com/file/d/0B4TSx5Jp3zdRNjZtTnRSREZqM2M/view?usp=sharing' target='_blank'>view my resume</ResumeLink>
+                <ResumeLink id='resume' href='https://drive.google.com/file/d/0B4TSx5Jp3zdRNjZtTnRSREZqM2M/view?usp=sharing' target='_blank'>view my resume</ResumeLink>
+                <ResumeLink href='https://profiles.generalassemb.ly/shirongfoo' target='_blank'>view my GA profile</ResumeLink>
+              </ResumeDiv>
+              <ResumeDiv>
+
               </ResumeDiv>
               <p>I enjoy using web technologies to make useful & pretty digital products that spark joy within people.</p>
               <br />
@@ -48,7 +52,7 @@ export default class Home extends Component {
         <FormContainer>
           <hr />
           <Row>
-            <Col md={12}>
+            <Col xs={12} md={12}>
             <H2>Let's Keep In Touch</H2>
             </Col>
               <form action='https://formspree.io/shirongfoo@gmail.com' method='POST' >
@@ -58,21 +62,21 @@ export default class Home extends Component {
                     <input type='string' className='form-control' name='name' id='name' placeholder='Name' />
                   </div>
                 </Col>
-                <Col md={12}>
+                <Col xs={12} md={12}>
 
                 <div className='form-group'>
                   <label>Email</label>
                   <input type='email' className='form-control' name='email' id='email' placeholder='Email' />
                 </div>
               </Col>
-              <Col md={12}>
+              <Col xs={12} md={12}>
 
                 <div className='form-group'>
                   <label>Message</label>
                   <textarea type='text' className='form-control' name='message' id='message' placeholder='Leave a message' />
                 </div>
               </Col>
-              <Col md={12}>
+              <Col xs={12} md={12}>
 
                 <input type='submit' className='btn btn-default' value='Send' />
               </Col>

@@ -17,10 +17,13 @@ export default class Home extends Component {
               <H2 id='WDIGrad'>WDI Graduate | Full-Stack Web Developer </H2>
               <ResumeDiv>
                 <ResumeLink href='https://drive.google.com/file/d/0B4TSx5Jp3zdRNjZtTnRSREZqM2M/view?usp=sharing' target='_blank'>view my resume</ResumeLink>
+                <ResumeLink href='https://profiles.generalassemb.ly/shirongfoo' target='_blank'>view my GA profile</ResumeLink>
               </ResumeDiv>
               <p>I enjoy using web technologies to make useful & pretty digital products that spark joy within people.</p>
               <br />
-              <p>My personal quest to become technology literate in 2017 led me to enrol in General Assembly's Web Development Immersive bootcamp.  It has been such a humbling yet enriching experience, one that has made me truly appreciate what technology can do for us in this day and age.  I endeavour to continue exploring and creating better applications that can help make people's lives better, in any shape and form.</p>
+
+              <p>My personal quest to become technology literate in 2017 led me to enrol in General Assembly's Web Development Immersive bootcamp. I wanted to become a web developer because I recognized that coding is a powerful way to communicate with people when language alone is inadequate
+It has been such a humbling yet enriching experience, one that has made me truly appreciate what technology can do for us in this day and age.  I endeavour to continue exploring and creating better applications that can help make people's lives better, in any shape and form.</p>
               <br />
               <Row>
                 <Col xs={4} md={1}>

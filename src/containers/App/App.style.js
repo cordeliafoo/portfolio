@@ -20,7 +20,7 @@ position: relative;
 left: 15vw;
 right: 15vw;
 width: 70vw;
-height: 100vh;
+height: 80vh;
 align-items: center;
 justify-content: center;
 ${''/* background-color: tomato; */}

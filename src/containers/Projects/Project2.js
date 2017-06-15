@@ -20,8 +20,8 @@ const Project2 = React.createClass({
   render () {
     return (
 
-      <ProjectCard onClick={this.open}>
-        <Thumbnail src='https://i.imgur.com/OSfOTMN.gif' alt='242x200' style={{height: 280}}>
+      <div onClick={this.open} className='projectCard'>
+        <Thumbnail src='https://i.imgur.com/OSfOTMN.gif' alt='242x200' className='thumbnail'>
           <H1>meet & jam</H1>
 
           <Modal show={this.state.showModal} onHide={this.close} bsSize='large'>
@@ -44,10 +44,10 @@ const Project2 = React.createClass({
               <hr />
               <H4>Check It Out</H4>
               <Row>
-                <Col xs={1} md={2}>
+                <Col xs={4} md={2}>
                   <FaviconLink href='https://github.com/shirongfoo/project2' target='_blank'><ModalIcons className='fa fa-github fa-2x' />Project Repo</FaviconLink>
                 </Col>
-                <Col xs={1} md={2}>
+                <Col xs={4} md={2}>
                   <FaviconLink href='https://meetandjam.herokuapp.com'target='_blank'><ModalIcons className='fa fa-globe fa-2x' />Live Website</FaviconLink>
                 </Col>
               </Row>
@@ -59,7 +59,7 @@ const Project2 = React.createClass({
 
           </Modal>
         </Thumbnail>
-      </ProjectCard>
+      </div>
 
     )
   }

@@ -9,86 +9,126 @@ import Project4 from './Project4'
 import Project5 from './Project5'
 import Project6 from './Project6'
 import {Container, FormContainer} from '../App/App.style'
+import './Projects.css'
+
+
+
+
+
 
 
 class Projects extends Component {
   render () {
     return (
-    <div>
-      <ProjectContainer>
-        <Row>
-          <Col xs={12} md={12}>
-          <H1ProjectsTitle>Projects</H1ProjectsTitle>
-        </Col>
-
-        </Row>
-        <hr />
-
-        <ScrollDiv>
+      <div>
+        <ProjectContainer>
           <Row>
-            <Col xs={12} md={4}>
-              <Project1/>
+            <Col xs={12} md={12}>
+              <H1ProjectsTitle>Projects</H1ProjectsTitle>
             </Col>
-            <Col xs={12} md={4}>
-              <Project2/>
+
+          </Row>
+          <hr />
+
+          <ScrollDiv>
+            <Row>
+              <Col xs={12} md={4}>
+                <Project1 id='project1'/>
+              </Col>
+              <Col xs={12} md={4}>
+                <Project2 />
+              </Col>
+              <Col xs={12} md={4}>
+                <Project3 />
+              </Col>
+              <Col xs={12} md={4}>
+                <Project4 />
+              </Col>
+              <Col xs={12} md={4}>
+                <Project5 />
+              </Col>
+              <Col xs={12} md={4}>
+                <Project6 />
+              </Col>
+            </Row>
+          </ScrollDiv>
+          <Row id='formContainer'>
+            {/* <Col xs={12} md={4}>
+              <div>HELLOOOO</div>
+            </Col> */}
+            <hr />
+            <Col xs={12} md={12}>
+              <H2>Let's Keep In Touch</H2>
             </Col>
-            <Col xs={12} md={4}>
-              <Project3/>
+            <form action='https://formspree.io/shirongfoo@gmail.com' method='POST' >
+            <Col xs={12} md={12}>
+              <div className='form-group'>
+                <label>Name</label>
+                <input type='string' className='form-control' name='name' id='name' placeholder='Name' />
+              </div>
             </Col>
-            <Col xs={12} md={4}>
-              <Project4/>
+            <Col xs={12} md={12}>
+
+              <div className='form-group'>
+                <label>Email</label>
+                <input type='email' className='form-control' name='email' id='email' placeholder='Email' />
+              </div>
             </Col>
-            <Col xs={12} md={4}>
-              <Project5/>
+            <Col xs={12} md={12}>
+
+              <div className='form-group'>
+                <label>Message</label>
+                <textarea type='text' className='form-control' name='message' id='message' placeholder='Leave a message' />
+              </div>
             </Col>
-            <Col xs={12} md={4}>
-              <Project6/>
+            <Col xs={12} md={12}>
+
+              <input type='submit' className='btn btn-default' value='Send' />
             </Col>
+          </form>
           </Row>
 
-        </ScrollDiv>
+        </ProjectContainer>
 
 
+          {/* <FormContainer id='formContainer'>
+            <hr />
+            <Row>
+              <Col xs={12} md={12}>
+                <H2>Let's Keep In Touch</H2>
+              </Col>
+              <form action='https://formspree.io/shirongfoo@gmail.com' method='POST' >
+              <Col xs={12} md={12}>
+                <div className='form-group'>
+                  <label>Name</label>
+                  <input type='string' className='form-control' name='name' id='name' placeholder='Name' />
+                </div>
+              </Col>
+              <Col xs={12} md={12}>
 
-    </ProjectContainer>
+                <div className='form-group'>
+                  <label>Email</label>
+                  <input type='email' className='form-control' name='email' id='email' placeholder='Email' />
+                </div>
+              </Col>
+              <Col xs={12} md={12}>
 
-    <FormContainer>
-      <hr />
-      <Row>
-        <Col md={12}>
-          <H2>Let's Keep In Touch</H2>
-        </Col>
-        <form action='https://formspree.io/shirongfoo@gmail.com' method='POST' >
-        <Col md={12}>
-          <div className='form-group'>
-            <label>Name</label>
-            <input type='string' className='form-control' name='name' id='name' placeholder='Name' />
-          </div>
-        </Col>
-        <Col md={12}>
+                <div className='form-group'>
+                  <label>Message</label>
+                  <textarea type='text' className='form-control' name='message' id='message' placeholder='Leave a message' />
+                </div>
+              </Col>
+              <Col xs={12} md={12}>
 
-          <div className='form-group'>
-            <label>Email</label>
-            <input type='email' className='form-control' name='email' id='email' placeholder='Email' />
-          </div>
-        </Col>
-        <Col md={12}>
+                <input type='submit' className='btn btn-default' value='Send' />
+              </Col>
+            </form>
 
-          <div className='form-group'>
-            <label>Message</label>
-            <textarea type='text' className='form-control' name='message' id='message' placeholder='Leave a message' />
-          </div>
-        </Col>
-        <Col md={12}>
+          </Row>
+        </FormContainer> */}
 
-          <input type='submit' className='btn btn-default' value='Send' />
-        </Col>
-      </form>
 
-    </Row>
-  </FormContainer>
-
-    </div>
+      </div>
     )
   }
 }

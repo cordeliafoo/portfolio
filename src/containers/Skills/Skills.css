@@ -1,0 +1,11 @@
+
+
+@media screen and (orientation: portrait) {
+  .H2iphone{
+    font-size: 1.5em;
+  }
+
+  .piphone{
+    font-size: 1.1em;
+  }
+}

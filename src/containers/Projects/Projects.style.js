@@ -39,22 +39,22 @@ export const P = styled.p`
 
 export const ProjectContainer = styled.div`
   width: 70%;
-  height: 107vh;
+  height: 100vh;
   margin: 0 auto;
   margin-top: 30px;
   ${''/* overflow: scroll; */}
-  overflow: hidden;
+  ${''/* overflow: hidden; */}
   ${''/* background-color: red; */}
   padding-bottom: 10px;
 `
 export const ScrollDiv = styled.div`
  width: 100%;
- height: 100vh;
- overflow-x: hidden;
+ height: 100%;
+ ${''/* overflow-x: hidden;
  overflow-y: scroll;
 ::-webkit-scrollbar {
 display: none;
-}
+} */}
 `
 
 export const ProjectCard = styled.div`

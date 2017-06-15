@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Zoomy from 'react-zoomy'
 import {ImageButton, H1, H4, ProjectContainer, ScrollDiv, P, ProjectCard, FaviconLink, ModalIcons} from './Projects.style'
 import {Grid, Row, Col, Thumbnail, Glyphicon, Badge, Button, Modal, Popover, Tooltip, OverlayTrigger} from 'react-bootstrap'
+import './Projects.css'
 
 const Project3 = React.createClass({
   getInitialState () {
@@ -19,8 +20,8 @@ const Project3 = React.createClass({
   render () {
     return (
 
-      <ProjectCard onClick={this.open}>
-        <Thumbnail src='https://i.imgur.com/KenoeOd.gif' alt='242x200' style={{height: 280}}>
+      <div onClick={this.open} className='projectCard'>
+        <Thumbnail src='https://i.imgur.com/KenoeOd.gif' alt='242x200' className='thumbnail'>
           <H1>whichcraft</H1>
 
           <Modal show={this.state.showModal} onHide={this.close} bsSize='large'>
@@ -40,10 +41,10 @@ const Project3 = React.createClass({
               <hr />
               <H4>Check It Out</H4>
               <Row>
-                <Col xs={1} md={2}>
+                <Col xs={4} md={2}>
                   <FaviconLink href='https://github.com/wdi-sg/wdi-project-3-the-dream-team' target='_blank'><ModalIcons className='fa fa-github fa-2x'/>Project Repo</FaviconLink>
                 </Col>
-                <Col xs={1} md={2}>
+                <Col xs={4} md={2}>
                   <FaviconLink href='https://whichcraft.herokuapp.com/' target='_blank'><ModalIcons className='fa fa-globe fa-2x'/>Live Website</FaviconLink>
                 </Col>
               </Row>
@@ -53,7 +54,7 @@ const Project3 = React.createClass({
             </Modal.Footer>
           </Modal>
         </Thumbnail>
-      </ProjectCard>
+      </div>
 
     )
   }

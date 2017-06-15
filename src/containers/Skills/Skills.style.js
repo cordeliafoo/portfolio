@@ -33,19 +33,31 @@ ${''/* background-color: green; */}
   height: 80vh;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 100px;
 
   ${''/* overflow: scroll; */}
   overflow: visible;
 
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+        ${''/* background-color: red; */}
+        display: flex;
+
+  }
+
+
 
 `
 
-export const ScrollDiv = styled.div`
- width: 100%;
- height: 99%;
- overflow-x: hidden;
- overflow-y: scroll;
-::-webkit-scrollbar {
-display: none;
-}
-`
+// export const ScrollDiv = styled.div`
+//  width: 100%;
+//  height: 99%;
+//  overflow-x: hidden;
+//  overflow-y: scroll;
+// ::-webkit-scrollbar {
+// display: none;
+// }
+// `
