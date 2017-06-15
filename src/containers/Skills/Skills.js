@@ -1,7 +1,6 @@
-import React, {Component, PropTypes} from 'react'
-import {Container, FormContainer} from '../App/App.style'
-import {Grid, Row, Col, Thumbnail, Glyphicon, Badge, Button, Modal, Popover, Tooltip, OverlayTrigger} from 'react-bootstrap'
-import {H1, H2, SkillsContainer, ScrollDiv} from './Skills.style'
+import React, {Component} from 'react'
+import {Grid, Row, Col} from 'react-bootstrap'
+import {H1, H2, SkillsContainer} from './Skills.style'
 import './Skills.css'
 
 export default class Skills extends Component {

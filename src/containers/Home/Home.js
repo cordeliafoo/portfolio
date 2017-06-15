@@ -1,7 +1,6 @@
-import React, {Component, PropTypes} from 'react'
-import {Relative, FlexBox} from '../../theme/grid'
-import {ImageDiv, H1, H2, LandingDiv, FaviconLink, FormDiv, MainDiv, ResumeLink, ResumeDiv} from './Home.style'
-import {Grid, Row, Col, Thumbnail, Glyphicon, Badge, Button } from 'react-bootstrap'
+import React, {Component} from 'react'
+import {ImageDiv, H2, FaviconLink, ResumeLink, ResumeDiv} from './Home.style'
+import {Row, Col } from 'react-bootstrap'
 import {Container, FormContainer} from '../App/App.style'
 import './Home.css'
 

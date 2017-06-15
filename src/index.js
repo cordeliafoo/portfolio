@@ -6,6 +6,7 @@ import {AppContainer} from 'react-hot-loader'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import PropTypes from 'prop-types'
 
 ReactDOM.render(
   <AppContainer>

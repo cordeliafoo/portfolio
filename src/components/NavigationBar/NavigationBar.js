@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { NavigationContainer, NavItem } from './NavigationBar.style'
-import {Grid, Row, Col, Thumbnail, Glyphicon, Badge, Button } from 'react-bootstrap'
+import {NavItem } from './NavigationBar.style'
 import './NavigationBar.css'
 
 

@@ -46,10 +46,17 @@ export const ProjectContainer = styled.div`
   ${''/* overflow: hidden; */}
   ${''/* background-color: red; */}
   padding-bottom: 10px;
+
+  @media screen and (orientation: portrait) {
+    width: 95%;
+  }
+
+
+  
 `
 export const ScrollDiv = styled.div`
  width: 100%;
- height: 100%;
+ height: 100vh;
  ${''/* overflow-x: hidden;
  overflow-y: scroll;
 ::-webkit-scrollbar {

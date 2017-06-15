@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
-import Zoomy from 'react-zoomy'
-import {ImageButton, H1, ProjectContainer, ScrollDiv, H1ProjectsTitle, H2} from './Projects.style'
-import {Grid, Row, Col, Thumbnail, Glyphicon, Badge, Button, Modal, Popover, Tooltip, OverlayTrigger} from 'react-bootstrap'
+import {ProjectContainer, ScrollDiv, H1ProjectsTitle, H2} from './Projects.style'
+import {Row, Col} from 'react-bootstrap'
 import Project1 from './Project1'
 import Project2 from './Project2'
 import Project3 from './Project3'
 import Project4 from './Project4'
 import Project5 from './Project5'
 import Project6 from './Project6'
-import {Container, FormContainer} from '../App/App.style'
 import './Projects.css'
 
 
@@ -32,22 +30,22 @@ class Projects extends Component {
 
           <ScrollDiv>
             <Row>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={12}>
                 <Project1 id='project1'/>
               </Col>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={12}>
                 <Project2 />
               </Col>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={12}>
                 <Project3 />
               </Col>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={12}>
                 <Project4 />
               </Col>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={12}>
                 <Project5 />
               </Col>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={12}>
                 <Project6 />
               </Col>
             </Row>

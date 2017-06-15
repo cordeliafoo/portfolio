@@ -19,6 +19,16 @@
     /*background-color: red;*/
   }
 
+  .projectCard{
+    cursor: pointer;
+    display: flex;
+    align-contents: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+
 }
 
 @media only screen
@@ -30,13 +40,15 @@
       display: flex;
       align-contents: center;
       justify-content: center;
-      margin-bottom: 5%;
-      margin-top: 5%;
+      width: 100%;
+
     }
 
     .thumbnail{
-      width: 380px;
+      width: 90%;
       align-self: center;
+
+
     }
 
 
@@ -49,7 +61,16 @@
 
 
 
-.projectCard{
+/*.projectCard{
   cursor: pointer;
   height: 260px;
+}*/
+
+
+.projectCard{
+  cursor: pointer;
+  width: 90%;
+  height: 100%;
+  margin-bottom: 3%;
+  margin-left: 5%;
 }

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import profilePic from '../../assets/profilePic.png'
 
 export const LandingDiv = styled.div`
   text-align: left;

@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-import { FlexBox, Div } from '../../theme/grid'
-import {Link} from 'react-router'
 
 export const H1 = styled.h1`
   font-family: 'Lato', sans-serif;
