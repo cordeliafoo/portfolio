@@ -3,8 +3,10 @@ import Zoomy from 'react-zoomy'
 import {ImageButton, H1, H4, ProjectContainer, ScrollDiv, P, ProjectCard, FaviconLink, ModalIcons} from './Projects.style'
 import {Grid, Row, Col, Thumbnail, Glyphicon, Badge, Button, Modal, Popover, Tooltip, OverlayTrigger} from 'react-bootstrap'
 import './Projects.css'
+var createReactClass = require('create-react-class');
 
-const Project3 = React.createClass({
+
+const Project3 = createReactClass({
   getInitialState () {
     return { showModal: false }
   },
