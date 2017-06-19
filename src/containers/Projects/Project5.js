@@ -1,6 +1,7 @@
 import React from 'react'
 import {H1, H4, P, FaviconLink, ModalIcons} from './Projects.style'
-import {Row, Col, Thumbnail, Modal, Button} from 'react-bootstrap'
+import {Row, Col, Thumbnail} from 'react-bootstrap'
+
 import './Projects.css'
 var createReactClass = require('create-react-class');
 const Project5 = createReactClass({

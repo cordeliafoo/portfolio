@@ -91,5 +91,7 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+
+    "homepage" : "https://shirongfoo.me"
 }

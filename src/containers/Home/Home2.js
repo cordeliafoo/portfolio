@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {ImageDiv, H2, FaviconLink, MainDiv, ResumeLink, ResumeDiv} from './Home.style'
+import {ImageDiv, H2, FaviconLink, ResumeLink, ResumeDiv} from './Home.style'
 import {Row, Col} from 'react-bootstrap'
 import {Container, FormContainer} from '../App/App.style'
 import './Home.css'
