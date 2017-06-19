@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ReactPDF from 'react-pdf'
 
 export default class Resume extends Component {
 
