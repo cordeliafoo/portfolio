@@ -1,0 +1,52 @@
+import React, {Component} from 'react'
+import Projects from '../projects/Projects'
+import About from '../about/About'
+
+import './App.css'
+
+class App extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = ({
+      display: 'nothing',
+      project: 1
+    })
+
+    this.handleDisplay = this.handleDisplay.bind(this)
+    this.handleProject = this.handleProject.bind(this)
+  }
+
+  handleDisplay (section) {
+    this.setState({
+      display: section
+    })
+  }
+
+  handleProject (projectNumber) {
+    this.setState({
+      display: 'projects',
+      project: projectNumber
+    })
+  }
+  render () {
+    return (
+      <div className='App'>this is the app page
+        <div className='backdrop' onClick={() => this.handleDisplay('nothing')}>
+          <h1>test</h1>
+        </div>
+
+        <div className='navigationContainer'>
+          <button onClick={() => this.handleDisplay('about')}>About</button>
+          <button onClick={() => this.handleDisplay('projects')}>Projects</button>
+        </div>
+
+        <div className={'myModal ' + (this.state.display === 'about' ? 'modalActive' : 'modalInactive')}>
+          <About handleDisplay={this.handleDisplay} />
+        </div>
+      </div>   /* end of component to be rendered */
+    )
+  }
+}
+
+export default App

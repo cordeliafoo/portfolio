@@ -1,0 +1,125 @@
+.connect {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  z-index: 5;
+  background-color: #ecf0f1;
+  margin-top: 10px;
+
+}
+
+.closeConnectModal {
+  position: absolute;
+  order: -1;
+  font-size: 200%;
+  top: 0px;
+  right: 15px;
+
+}
+
+.closeConnectModal span {
+  color: black;
+  transition: color 0.5s;
+  cursor: pointer;
+
+}
+
+.closeConnectModal span:hover{
+  color: #e74c3c;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.connectDiv{
+  width: 80%;
+}
+
+.connectDiv h1{
+  font-size: 250%;
+  font-family: 'The Girl Next Door', cursive;
+  margin-bottom: 10px;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.submitButton{
+  height: 15%;
+  border-radius: 10px;
+  background-color: #e74c3c;
+}
+
+input,
+textarea{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  margin-top: 5%;
+  border-radius: 5px;
+  border-style: none;
+
+}
+
+input{
+  height: 30px;
+}
+
+textarea{
+  height: 100px;
+}
+
+
+.submitButton{
+  height: 30px;
+  width: 10%;
+  align-self: flex-end;
+  font-size: 80%;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.submitButton:hover{
+  background-color: grey;
+}
+
+.submitButton:active{
+  background-color: grey;
+}
+
+@media only screen and (max-device-width: 414px) and (orientation:portrait) {
+  .connectDiv h1{
+    font-size: 100%;
+    font-family: 'The Girl Next Door', cursive;
+    margin-bottom: 10px;
+
+  }
+
+  input,
+  textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70%;
+    margin-top: 5%;
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;
+
+  }
+
+  .submitButton{
+    height: 30px;
+    width: 25%;
+    font-size: 70%;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+
+}
